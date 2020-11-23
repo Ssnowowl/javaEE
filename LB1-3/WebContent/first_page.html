@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Головна сторінка</title>
+</head>
+<body>
+<center>
+<h1>Сторінка для управління БД лікарні</h1>
+</center>
+<ul>
+    <a href="show_pacient">Пацієнти</a><br>
+    <a href="show_doctor">Лікарі</a><br>
+   	<a href="show_priyom">Прийом лікаря</a><br>
+    <a href="hospitalbd">Перевірити з'єднання з БД</a><br>
+   	<a href="setcookie">Поставити cookie</a><br>
+	<a href="getcookie">Отримати cookie сайту</a><br>
+	<a href="setsession">Встановити сесію</a><br>
+</ul>
+ <style type="text/css">
+H1 {
+  font-size: 50px;
+  font-weight: normal;
+  cursor: pointer;
+  text-shadow: -1px -1px #000,
+               0 1px 0 #444;
+  color: #222;
+  transition: all 1s;
+  }
+  H1:hover {
+    color: #1A1A1A;
+    }
+a {
+  color:#34495e; 
+  line-height: 1.2; 
+  position: relative; 
+  padding: 0 14px; 
+  text-transform: uppercase;
+}
+a:after {
+  content: "";
+  height: 100%;
+  min-width: 4px;
+  background: #34495e;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: .5s;
+}
+a:hover:after {
+  min-width: 100%;
+  background: #95a5a6;
+  opacity: .35;
+}
+    body{
+    background:#DCD4AE;
+    }
+</style>
+</body>
+</html>
